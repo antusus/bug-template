@@ -65,7 +65,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
       description: |
