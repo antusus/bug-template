@@ -38,6 +38,17 @@ body:
       options:
         - label: Yes I've checked them.
           required: true
+  - type: dropdown
+    id: authentication
+    attributes:
+      label: Authentication method used in your application
+      options:
+        - Server Authentication (with JWT)
+        - User Authentication (OAuth 2.0)
+        - Server Authentication (Client Credentials Grant)
+        - Developer Token
+    validations:
+      required: true
   - type: input
     id: cli-version
     attributes:
@@ -57,7 +68,6 @@ body:
       label: Describe the bug
       description: |
         Please include as much detail as possible to help us troubleshoot!
-        - Authentication method used in your application
         - App Access Level (found in application configuration):  App Access Only | App + Enterprise Access
         - Are you using service account or user account? https://developer.box.com/guides/getting-started/user-types/service-account/
         - Share the full error output you're seeing, if applicable. |
