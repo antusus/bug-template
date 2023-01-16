@@ -13,5 +13,3 @@ body:
       options:
         - label: Yes I've checked them.
           required: true
-          
-[sdk-docs]: /docs
