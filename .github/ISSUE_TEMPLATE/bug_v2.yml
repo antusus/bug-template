@@ -56,7 +56,7 @@ body:
     attributes:
       label: Describe the bug
       description: Replace this text with a description of what problem you're having. |
-      Please include as much detail as possible to help us troubleshoot! |
+        Please include as much detail as possible to help us troubleshoot! |
         - Authentication method used in your application |
         - App Access Level (found in application configuration):  App Access Only | App + Enterprise Access |
         - Are you using service account or user account? https://developer.box.com/guides/getting-started/user-types/service-account/ |
