@@ -42,6 +42,7 @@ body:
     id: authentication
     attributes:
       label: Authentication method used in your application
+      description: It can be found in your Application Configuration -> Configuration (TAB) -> Authentication Method
       options:
         - 
         - Server Authentication (with JWT)
