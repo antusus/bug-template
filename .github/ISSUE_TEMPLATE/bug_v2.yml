@@ -78,7 +78,7 @@ body:
         - Developer Token
     validations:
       required: true
- - type: input
+  - type: input
     id: cli-version
     attributes:
       label: What is Box CLI Version and Node used?
