@@ -72,12 +72,24 @@ body:
       label: Authentication method used in your application
       description: It can be found in your Application Configuration -> Configuration (TAB) -> Authentication Method
       options:
+        -
         - Server Authentication (with JWT)
         - User Authentication (OAuth 2.0)
         - Server Authentication (Client Credentials Grant)
         - Developer Token
     validations:
       required: true
+  - type: dropdown
+    id: app-access-level
+    attributes:
+      label: App Access Level
+      description: It can be found in your Application Configuration -> Configuration (TAB) -> App Access Level
+      options:
+        - 
+        - App Access Only
+        - App + Enterprise Access
+    validations:
+      required: true     
   - type: input
     id: cli-version
     attributes:
