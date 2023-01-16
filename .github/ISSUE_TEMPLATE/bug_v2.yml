@@ -39,8 +39,8 @@ body:
         - label: Yes I've checked them.
           required: true
   - type: input
-    id: version
+    id: cli-version
     attributes:
       label: What is Box CLI Version used?
-      validations:
-        required: true
+    validations:
+      required: true
