@@ -16,7 +16,8 @@ body:
   - type: checkboxes
     id: api-docs-checked
     attributes:
-      label: I have checked that the <a href="https://developer.box.com/docs">API documentation</a> doesn't solve my issue.
+      label: I have checked that the API documentation doesn't solve my issue.
+      description: <a href="https://developer.box.com/docs">API documentation</a>
       options:
         - label: Yes I've checked them.
           required: true
