@@ -38,31 +38,6 @@ body:
       options:
         - label: Yes I've checked them.
           required: true
-  - type: dropdown
-    id: authentication
-    attributes:
-      label: Authentication method used in your application
-      description: It can be found in your Application Configuration -> Configuration (TAB) -> Authentication Method
-      options:
-        - Server Authentication (with JWT)
-        - User Authentication (OAuth 2.0)
-        - Server Authentication (Client Credentials Grant)
-        - Developer Token
-    validations:
-      required: true
-  - type: input
-    id: cli-version
-    attributes:
-      label: What is Box CLI Version and Node used?
-      placeholder: box --version
-    validations:
-      required: true
-  - type: input
-    id: os-version
-    attributes:
-      label: What is your Operating  System Version?
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
@@ -90,5 +65,30 @@ body:
     attributes:
       label: Expected behavior
       description: What did you expect to happen?
+    validations:
+      required: true
+  - type: dropdown
+    id: authentication
+    attributes:
+      label: Authentication method used in your application
+      description: It can be found in your Application Configuration -> Configuration (TAB) -> Authentication Method
+      options:
+        - Server Authentication (with JWT)
+        - User Authentication (OAuth 2.0)
+        - Server Authentication (Client Credentials Grant)
+        - Developer Token
+    validations:
+      required: true
+ - type: input
+    id: cli-version
+    attributes:
+      label: What is Box CLI Version and Node used?
+      placeholder: box --version
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: What is your Operating  System Version?
     validations:
       required: true
