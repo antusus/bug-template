@@ -43,6 +43,7 @@ body:
     attributes:
       label: Authentication method used in your application
       options:
+        - 
         - Server Authentication (with JWT)
         - User Authentication (OAuth 2.0)
         - Server Authentication (Client Credentials Grant)
