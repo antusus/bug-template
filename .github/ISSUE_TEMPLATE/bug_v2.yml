@@ -71,6 +71,13 @@ body:
       description: |
         Steps to reproduce the problem help speed up debugging for us and gets your issue resolved sooner!
         The code sample should be an SSCCE. See http://sscce.org/ for details. 
-        In short, please provide a code sample that we can copy/paste, run and reproduce.
+        Please provide a code sample that we can copy/paste, run and reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
     validations:
       required: true
