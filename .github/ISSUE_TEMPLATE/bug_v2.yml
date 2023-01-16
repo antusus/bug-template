@@ -9,7 +9,8 @@ body:
   - type: checkboxes
     id: sdk-docs-checked
     attributes:
-      label: I have checked that the <a href="/docs">SDK documentation</a> doesn't solve my issue.
+      label: I have checked that the SDK documentation doesn't solve my issue.
+      description: <a href="/docs">SDK documentation</a> link
       options:
         - label: Yes I've checked them.
           required: true
@@ -17,21 +18,23 @@ body:
     id: api-docs-checked
     attributes:
       label: I have checked that the API documentation doesn't solve my issue.
-      description: <a href="https://developer.box.com/docs">API documentation</a>
+      description: <a href="https://developer.box.com/docs">API documentation</a> link
       options:
         - label: Yes I've checked them.
           required: true
   - type: checkboxes
     id: dev-forums-checked
     attributes:
-      label: I have checked that the <a href="https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum">Box Developer Forums</a> doesn't solve my issue.
+      label: I have checked that the Box Developer Forums doesn't solve my issue.
+      description: <a href="https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum">Box Developer Forums</a> link
       options:
         - label: Yes I've checked them.
           required: true
   - type: checkboxes
     id: github-repo-checked
     attributes:
-      label: I have checked that the <a href="https://github.com/box/boxcli/search?type=Issues">Box Developer Forums</a> doesn't solve my issue.
+      label: I have checked that the Box Developer Forums doesn't solve my issue.
+      description: <a href="https://github.com/box/boxcli/search?type=Issues">Box Developer Forums</a> link
       options:
         - label: Yes I've checked them.
           required: true
