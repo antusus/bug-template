@@ -11,7 +11,7 @@ body:
       label: "I have checked that the [SDK documentation][sdk-docs] doesn't solve my issue."
       options:
         - label: Yes
-  		    required: true
+          required: true
 
 [sdk-docs]: /docs
 [api-docs]: https://developer.box.com/docs
